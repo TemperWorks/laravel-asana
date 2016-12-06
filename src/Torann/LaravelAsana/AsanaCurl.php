@@ -15,7 +15,7 @@ class AsanaCurl
     const METHOD_GET = 'GET';
     const METHOD_DELETE = 'DELETE';
 
-    private $timeout = 10;
+    private $timeout = 60;
 
     private $endpoint = "https://app.asana.com/api/1.0/";
 
